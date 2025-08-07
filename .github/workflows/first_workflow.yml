@@ -1,0 +1,14 @@
+---
+name: github action first workflow
+on: workflow_dispatch
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: execute a single command
+        run: echo "Hello world"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: execute a set of command
+        run: hostname -s echo "Bye Bye"
