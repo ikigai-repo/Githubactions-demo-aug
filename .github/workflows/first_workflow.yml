@@ -11,5 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: execute a set of command
-        run: hostname
-             echo "Bye Bye"
+        run: echo "Bye Bye"
